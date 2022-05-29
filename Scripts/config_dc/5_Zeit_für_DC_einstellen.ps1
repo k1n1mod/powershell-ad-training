@@ -1,0 +1,1 @@
+﻿w32tm /config /computer:KOE1DCW01.koe1.global /manualpeerlist:time.windows.com /syncfromflags:manual /update
