@@ -10,4 +10,4 @@ Set-DnsServerScavenging -ScavengingState:$True `
 -PassThru
 
 
-get-DnsServerZoneAging -Name prime.pri
+get-DnsServerZoneAging -Name koe1.global

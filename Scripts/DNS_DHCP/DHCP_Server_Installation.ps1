@@ -9,6 +9,6 @@ Install-WindowsFeature -ComputerName srv01 `
 -IncludeAllSubFeature `
 -IncludeManagementTools
 
-Add-DhcpServerInDC -DnsName 'srv01.prime.pri' -PassThru
+Add-DhcpServerInDC -DnsName 'srv01.koe1.global' -PassThru
 
 Get-DhcpServerSetting
