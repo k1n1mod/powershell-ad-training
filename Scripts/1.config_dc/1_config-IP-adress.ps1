@@ -17,10 +17,10 @@ Set-DnsClientServerAddress `
     -InterfaceAlias "Ethernet0" `
     -ServerAddresses 192.168.0.10
 
-#Überprüfen ob das Interface eine IP-Adresse bekommen hat
+#ÃœberprÃ¼fen ob das Interface eine IP-Adresse bekommen hat
 Get-NetIPAddress -InterfaceAlias "Ethernet0"
 
-#Überprüfen ob das Interface eine DNS-Adresse bekommen hat
+#ÃœberprÃ¼fen ob das Interface eine DNS-Adresse bekommen hat
 Get-DnsClientServerAddress -InterfaceAlias "Ethernet0"
 
 #ping ps
