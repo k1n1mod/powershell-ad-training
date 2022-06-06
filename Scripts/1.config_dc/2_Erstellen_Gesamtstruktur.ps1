@@ -20,7 +20,7 @@ Install-ADDSForest `
 -DatabasePath "C:\Windows\NTDS" `
 -DomainMode "WinThreshold" `
 -DomainName "domain.global" `
--DomainNetbiosName "PRIME" `
+-DomainNetbiosName "KOE1" `
 -ForestMode "WinThreshold" `
 -InstallDns:$true `
 -LogPath "C:\Windows\NTDS" `
