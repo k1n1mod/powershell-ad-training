@@ -6,7 +6,7 @@ Get-ADForest
 Enable-ADOptionalFeature `
 –Identity "Recycle Bin Feature" `
 –Scope ForestOrConfigurationSet `
-–Target "prime.pri" `
+–Target "koe1.global" `
 -Confirm:$False
 
 
